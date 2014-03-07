@@ -12,4 +12,10 @@ require_relative '../database/connection'
 require_relative '../database/populate'
 require_relative '../spec/spec_tasks'
 
+DB_file = "../database/dance_comp_db.sqlite3"
+
+ActiveRecord::Base.establish_connection(
+  :adapter => 'sqlite3',
+  :database => DB_file
+)
 
