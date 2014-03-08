@@ -1,4 +1,5 @@
-require_relative '../connection'
+require_relative '../../config/configuration'
+
 
 class CreateDancers < ActiveRecord::Migration
   def change

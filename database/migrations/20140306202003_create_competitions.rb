@@ -1,4 +1,4 @@
-require_relative '../connection'
+require_relative '../../config/configuration'
 
 class CreateCompetitions < ActiveRecord::Migration
   def change

@@ -1,4 +1,4 @@
-require_relative '../connection'
+require_relative '../../config/configuration'
 
 class CreateVenues < ActiveRecord::Migration
   def change
